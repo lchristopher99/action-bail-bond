@@ -1,0 +1,7 @@
+.sexy_line { 
+    display: block;
+    margin: 25px 0;
+    height: 1px;
+    background: black;
+    background: -webkit-gradient(linear, 0 0, 100% 0, from(rgb(255, 99, 99)), to(rgb(255, 99, 99)), color-stop(50%, black));
+}
