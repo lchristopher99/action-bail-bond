@@ -1,7 +1,7 @@
-/* Following css adds custom jumbotron size and background image */
+/* Following css adds custom jumbotron and background image */
 .jumbotron-logan {
     padding-top: 30px;
-    padding-bottom: 150px;
+    padding-bottom: 30px;
     margin-bottom: 30px;
     color: white;
     position: relative;
