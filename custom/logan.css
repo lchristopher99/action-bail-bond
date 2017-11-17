@@ -1,15 +1,18 @@
-/* Following css adds custom jumbotron and background image */
+/* Following css adds custom jumbotron */
 .jumbotron-logan {
     padding-top: 30px;
     padding-bottom: 30px;
-    margin-bottom: 30px;
-    color: white;
+    margin-bottom: 0px;
+    color: rgb(255, 255, 255);
     position: relative;
 }
 
-.jumbotron-billboard-logan .img-jumbo {
-    color: #fff;
-    background: #000 url("../images/actionbb.png");
+.back-color {
+    background-color: #8f8f8f;  
+}
+
+#jumbotron-billboard-logan { 
+    color: rgb(255, 255, 255);
     width: 100%;
     height: 100%;
     background-size: cover;
@@ -17,14 +20,39 @@
   
     position:absolute;
     top:0;left:0;
-    z-index:1;
 }
 /* End */
 
 /* Following css changes <hr> element to gradient red line */
-hr {
+/* hr {
     border: 0;
     height: 1px;
     background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(255, 0, 0, 0.75), rgba(0, 0, 0, 0));
+} */
+/* End */
+
+/* Following css adds custom background imgs to specific classes */
+.stock1 {
+    background: url(../images/stock1.jpg) center;
+}
+
+.stock2 {
+    background: url(../images/stock2.jpg);
+}
+
+.stock3 {
+    background: url(../images/stock3.jpg);
+}
+
+.action {
+    background: url(../images/actionbb.png);
 }
 /* End */
+
+.opacity {
+    opacity: .2;
+}
+
+.back-color-black {
+    background-color: #000000;  
+}
