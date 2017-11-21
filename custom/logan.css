@@ -50,3 +50,28 @@
     background-color: #000000;  
 }
 /* End */
+
+/* Custom centered tab font and color */
+#nav-tabs > li.active > a,
+#nav-tabs > li.active > a:hover,
+#nav-tabs > li.active > a:focus {
+  color: rgb(68, 68, 68);
+  cursor: pointer;
+  background-color: rgb(242, 21, 43);
+  border-bottom-color: transparent;
+  border-radius: .2rem;  
+}
+
+#nav-tabs > li > a:hover {
+  color: rgb(68, 68, 68);
+  cursor: pointer;
+  background-color: rgb(242, 21, 43);
+  border-bottom-color: transparent;
+  border-radius: .2rem;  
+}
+
+#gray {
+    color: #4d4d4d;
+    text-decoration: none;
+}
+/* End */
