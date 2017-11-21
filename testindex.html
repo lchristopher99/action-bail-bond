@@ -21,11 +21,26 @@
 <!-- Centered tabs -->
 <div class="container-fluid">
     <ul id="nav-tabs" class="nav nav-justified">
-      <li id="gray" class="active"><a href="#">Home</a></li>
-      <li><a id="gray" href="#">Contact</a></li>
-      <li><a id="gray" href="#">The Process</a></li>
-      <li><a id="gray" href="#">About Me</a></li>
+      <li class="active"><a data-toggle="tab" id="gray" href="#home">Home</a></li>
+      <li><a data-toggle="tab" id="gray" href="#menu1">Contact</a></li>
+      <li><a data-toggle="tab" id="gray" href="#menu2">The Process</a></li>
+      <li><a data-toggle="tab" id="gray" href="#">About Me</a></li>
     </ul>
+</div>
+
+<div class="tab-content">
+    <div id="home" class="tab-pane fade in active">
+      <h3>HOME</h3>
+      <p>Some content.</p>
+    </div>
+    <div id="menu1" class="tab-pane fade">
+      <h3>Menu 1</h3>
+      <p>Some content in menu 1.</p>
+    </div>
+    <div id="menu2" class="tab-pane fade">
+      <h3>Menu 2</h3>
+      <p>Some content in menu 2.</p>
+    </div>
 </div>
 
 <!-- transparent body imgs -->
