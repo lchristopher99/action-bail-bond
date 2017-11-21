@@ -23,14 +23,6 @@
 }
 /* End */
 
-/* Following css changes <hr> element to gradient red line */
-/* hr {
-    border: 0;
-    height: 1px;
-    background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(255, 0, 0, 0.75), rgba(0, 0, 0, 0));
-} */
-/* End */
-
 /* Following css adds custom background imgs to specific classes */
 .stock1 {
     background: url(../images/stock1.jpg) center;
@@ -49,6 +41,7 @@
 }
 /* End */
 
+/* Following css fixes background opacity and background color to specific classes */
 .opacity {
     opacity: .2;
 }
@@ -56,3 +49,4 @@
 .back-color-black {
     background-color: #000000;  
 }
+/* End */
