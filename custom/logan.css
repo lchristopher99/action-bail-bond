@@ -17,7 +17,6 @@
     height: 100%;
     background-size: cover;
     overflow: hidden;
-  
     position:absolute;
     top:0;left:0;
 }
@@ -25,14 +24,18 @@
 
 /* Following css adds custom background imgs to specific classes */
 .stock1 {
-    background: url(../images/stock1.jpg) center;
+    background: url(../images/stock1.jpg);
 }
 
 .stock2 {
-    background: url(../images/stock2.jpg);
+    /* background: url(../images/stock2.jpg); */
 }
 
 .stock3 {
+    background: url(../images/stock3.jpg);
+}
+
+.stock4 {
     background: url(../images/stock3.jpg);
 }
 
@@ -76,5 +79,15 @@
     text-decoration: none;
     font-family: Impact, Charcoal, sans-serif;
     font-size: 1.2em;    
+}
+/* End */
+
+/* Following css makes actionbb logo responsive */
+.actiontest {
+    background: url("../images/actionbb.png") no-repeat center center; 
+    -webkit-background-size: 100% 100%;
+    -moz-background-size: 100% 100%;
+    -o-background-size: 100% 100%;
+    background-size: 100% 100%;
 }
 /* End */
