@@ -28,7 +28,7 @@
 }
 
 .stock2 {
-    /* background: url(../images/stock2.jpg); */
+    background: url(../images/stock2.jpg);
 }
 
 .stock3 {
@@ -89,5 +89,43 @@
     -moz-background-size: 100% 100%;
     -o-background-size: 100% 100%;
     background-size: 100% 100%;
+}
+/* End */
+
+/* Parallax design css */
+.parallax {
+    /* Set a specific height */
+    min-height: 500px; 
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.stockPX1 {
+    /* The image used */
+    background-image: url(../images/stock1.jpg);    
+}
+
+.stockPX2 {
+    /* The image used */
+    background-image: url(../images/stock2.jpg);    
+}
+
+.stockPX3 {
+    /* The image used */
+    background-image: url(../images/stock3.jpg);    
+}
+
+.stockPX4 {
+    /* The image used */
+    background-image: url(../images/stock4.jpg);    
+}
+
+.stockPX5 {
+    /* The image used */
+    background-image: url(../images/actionbb.png);    
 }
 /* End */
