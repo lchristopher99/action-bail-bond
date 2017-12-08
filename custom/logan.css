@@ -73,18 +73,7 @@
     background-repeat: no-repeat;
     background-size: cover;
     opacity: .2;
-} 
-
-.parallax-stock1-test {
-    /* Set a specific height */
-    min-height: 400px; 
-
-    /* Create the parallax scrolling effect */
-    background: url(../images/stock1.jpg) no-repeat center center;
-    background-attachment: fixed;
-    background-size: cover;
-    opacity: .2;
-} 
+}
 
 /* Pictures Used */
 #stockPX1 {
